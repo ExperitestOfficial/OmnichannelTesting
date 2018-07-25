@@ -11,32 +11,42 @@
   <EnvironmentConfiguration className="webtool.environment.EnvironmentConfiguration" version="1">
    <environmentsSize>2</environmentsSize>
    <Environment className="webtool.environment.Environment" version="1">
-    <name>Local Envorinment</name>
-    <variablesSize>2</variablesSize>
+    <name>Parabank Local Envorinment</name>
+    <variablesSize>3</variablesSize>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
-     <maskValue>AgAAACDMucHjXl6On+nPFQfKUvmogpoUJSpu3NFQNjbJPtog9w==</maskValue>
-     <value>AgAAADAdv0qFUfabT11hSyURJa4Ibyp2Wdb0MNvqMxTMhicQKHE+VMpmXdnqi0RMLtCZqNI=</value>
+     <maskValue>AgAAACDZKnmHFIeTu04hcaeTyvrbUDiYwYoLnYxhdJSbJXkqkA==</maskValue>
+     <value>AgAAADDA75P5EB3SynhIM8cwBh0PnYTwuZzikRZDAz08QwOYRfUnqRiB9MjFl7/Z2Pxhs2U=</value>
      <name>BASEURL</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
-     <maskValue>AgAAACBXNVyqoS9WEaHozvb5iX3myg1C+1QYnTbptcT7gzw2iA==</maskValue>
-     <value>AgAAAFDs/umZNRbICpbtBjB8OzKn+ZtnZjzQ3D+roLCLyQicFroybRQrzOjPtHG9bcMjXBeCRgvMYlJ4dj247HVS71HTWimdn9Jv/MIdNbH6d5LtSQ==</value>
+     <maskValue>AgAAACBkCgbZM9I9aNGlWtA1ZpbjNB7Qhw8dgFfHvjqH+2vC0w==</maskValue>
+     <value>AgAAAFAZGtm6sdcdv1FqPlBTFS9dFqDp5y6dmftRE3DmSy928ooV+mDYQ/z8OeHEj4u6cgIey5k/N5pf9RUIRaaN8SjvBWU0BI48xNGUdEqPCMd3bA==</value>
      <name>SWAGGER</name>
+    </EnvironmentVariable>
+    <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
+     <maskValue>AgAAACCAgdJH67XrDDzWE3ox3zDll7SpnBV8dKATow+UAxRI6w==</maskValue>
+     <value>AgAAACAhNRG6kwmiKA1GCpgqII099jSmKK/kyEuyRvEzVr94jQ==</value>
+     <name>JDBC_HOST</name>
     </EnvironmentVariable>
    </Environment>
    <Environment className="webtool.environment.Environment" version="1">
     <name>demo environment</name>
     <active>true</active>
-    <variablesSize>2</variablesSize>
+    <variablesSize>3</variablesSize>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
-     <maskValue>AgAAACBEoRslvJFL+TgKKegIP13tHq5vTDll22ouu+GIk1mKyw==</maskValue>
-     <value>AgAAADCzFRoTm3vkgXgRxCaZ7u99zN2e0tY8kHlzlstnICRLeG+DoVnpPs1RblcdgKg+UsE=</value>
+     <maskValue>AgAAACB9cSCTMY/yKv9BoS9J+UkQXpdfM4Ap+r0Q8KbvWS8ZtQ==</maskValue>
+     <value>AgAAADAS7ZTfnBoE6e1Q7GiI4hnh/a1zuCUsNNQ6zYSU6J5Bs1lQMZqm9xdyWb4DQ2WJIVo=</value>
      <name>BASEURL</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
-     <maskValue>AgAAACC9JlvoJE/PgXL0SIVTlyoDf1Cb8sGddLjBa2zx0dti2w==</maskValue>
-     <value>AgAAAGAdFGzQVPtLFqffY+j0i9aSZ7/LnNxxkw62QQMc6tC2p7LMDx8WpuU4ZqjLBHspV/In3NPgNb4j0FccWr9FrsiG/hYi3nMajY3W4jHqGJv9NWTt/wfuld838Mnj2T6aFm4=</value>
+     <maskValue>AgAAACBahoKOTYKpcsaO+MJcVOzlJLHhzRR9UGvwvbECGDuGWA==</maskValue>
+     <value>AgAAAGBUw28kHQ+qG1FEGA52CZWyQLIHZ4GYxhB5n3ug/TwG+aPXqV4PlJGra/HmdCKEJm4LX1FqpX6cfdU7TYBEvBDCkSjiiFdtndhMXJq8uO5O2gTCU7G7xg0EAc4nG4sTAls=</value>
      <name>SWAGGER</name>
+    </EnvironmentVariable>
+    <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
+     <maskValue>AgAAACDOj0v5B704M4LHvjAvKNliR7/pJgHxVVlzh5PfHb4UhQ==</maskValue>
+     <value>AgAAACBT+v2ejhA9WCmE9nNwj/A33hLM+9SxGRydj4FSuN+DMA==</value>
+     <name>JDBC_HOST</name>
     </EnvironmentVariable>
    </Environment>
   </EnvironmentConfiguration>
@@ -111,7 +121,7 @@
    </SOAPRPCToolOptions>
   </TestSuiteSoapClientOptions>
   <profileMappingID>0</profileMappingID>
-  <maxProfileMappingID>31</maxProfileMappingID>
+  <maxProfileMappingID>39</maxProfileMappingID>
   <testLogicVariablesSize>3</testLogicVariablesSize>
   <TestLogicInteger className="webtool.test.logic.TestLogicInteger" version="1.1.1">
    <name>varCustomerId</name>
@@ -166,8 +176,7 @@
     <TestDependencyLogic className="webtool.test.logic.TestDependencyLogic" version="1.2">
     </TestDependencyLogic>
    </TestLogic>
-   <testID>39</testID>
-   <enabled>true</enabled>
+   <testID>130</testID>
    <name>/cleanDB - POST 2</name>
    <RESTClient className="webtool.soap.http.RESTClient" version="v.2.15.29.14">
     <iconName>RESTClient</iconName>
@@ -844,8 +853,8 @@
     </MultiValue>
    </RESTClient>
   </RESTClientToolTest>
-  <nextIdentifier>112</nextIdentifier>
-  <testsSize>3</testsSize>
+  <nextIdentifier>152</nextIdentifier>
+  <testsSize>4</testsSize>
   <TestSuite className="webtool.test.TestSuite" version="44.15.2">
    <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
    </DebugAssets>
@@ -864,7 +873,7 @@
    </TestLogic>
    <testID>82</testID>
    <enabled>true</enabled>
-   <name>Mobile Test goes here</name>
+   <name>Experitest Mobile Test</name>
    <TestSuitePerformanceOptions className="webtool.test.performance.TestSuitePerformanceOptions" version="1.5">
     <APMPerformanceProfileProviderContainer className="webtool.test.performance.apm.APMPerformanceProfileProviderContainer" version="1.1">
     </APMPerformanceProfileProviderContainer>
@@ -951,6 +960,9 @@
      </TestExecutionDelay>
      <TestExecutionDelay className="webtool.test.logic.TestExecutionDelay" version="1.2">
      </TestExecutionDelay>
+     <condition>true</condition>
+     <TestLogicVariableCondition className="webtool.test.logic.TestLogicVariableCondition" version="1.2">
+     </TestLogicVariableCondition>
      <TestDependencyLogic className="webtool.test.logic.TestDependencyLogic" version="1.2">
      </TestDependencyLogic>
     </TestLogic>
@@ -14800,6 +14812,24 @@
     </RESTClientToolTest>
    </TestSuite>
   </TestSuite>
+  <TestSuiteReference className="webtool.test.TestSuiteReference" version="6">
+   <fileReference>true</fileReference>
+   <RelativeLocation className="com.parasoft.util.RelativeLocation" version="1.4">
+    <resolveVariablePath>true</resolveVariablePath>
+    <backupPath>Parabank Swagger.tst</backupPath>
+    <path>${project_loc:Demo}/tests/Parabank Swagger.tst</path>
+   </RelativeLocation>
+   <testLogic>true</testLogic>
+   <TestLogic className="webtool.test.logic.TestLogic" version="1.7">
+    <TestExecutionDelay className="webtool.test.logic.TestExecutionDelay" version="1.2">
+    </TestExecutionDelay>
+    <TestExecutionDelay className="webtool.test.logic.TestExecutionDelay" version="1.2">
+    </TestExecutionDelay>
+    <TestDependencyLogic className="webtool.test.logic.TestDependencyLogic" version="1.2">
+    </TestDependencyLogic>
+   </TestLogic>
+   <isEnabled>true</isEnabled>
+  </TestSuiteReference>
   <TestSuite className="webtool.test.TestSuite" version="44.15.2">
    <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
    </DebugAssets>
@@ -14825,7 +14855,7 @@
     <TestDependencyLogic className="webtool.test.logic.TestDependencyLogic" version="1.2">
     </TestDependencyLogic>
    </TestLogic>
-   <testID>2</testID>
+   <testID>145</testID>
    <enabled>true</enabled>
    <name>Database: Validation Tests</name>
    <TestSuitePerformanceOptions className="webtool.test.performance.TestSuitePerformanceOptions" version="1.5">
@@ -14911,7 +14941,7 @@
      <TestDependencyLogic className="webtool.test.logic.TestDependencyLogic" version="1.2">
      </TestDependencyLogic>
     </TestLogic>
-    <testID>3</testID>
+    <testID>146</testID>
     <enabled>true</enabled>
     <name>Query Parabank DB 2</name>
     <DbTool className="webtool.db.DbTool" version="v.2.12.14">
@@ -15084,9 +15114,9 @@
      <DbAccount className="com.parasoft.db.DbAccount" version="1.8">
       <DbConfigSettings className="com.parasoft.db.DbConfigSettings" version="1.2.2">
        <password>AgAAAAA=</password>
-       <uri>jdbc:hsqldb:hsql://parabank.parasoft.com/parabank</uri>
+       <uri>jdbc:hsqldb:hsql://${JDBC_HOST}/parabank</uri>
        <username>sa</username>
-       <driver>AgAAADDPLYJos50xU3pMbTFvxqiY89JHyXdAdZ6lBOSZpIbuobMHRFQV7liBBVyvAEXpWak=</driver>
+       <driver>AgAAADDR9dCxgEF3r+kzDmUgW8DzA89t31XgY2ibkn3hFBIPOTaM1OD7+d7gWgHGV147je0=</driver>
       </DbConfigSettings>
      </DbAccount>
     </DbTool>
